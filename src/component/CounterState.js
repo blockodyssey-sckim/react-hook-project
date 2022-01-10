@@ -15,6 +15,9 @@ function reducer(state, action) {
 }
 
 const CounterState = () => {
+  //초기값 { value: 0 }
+  //초기값은 컴포넌트 외부에서 오브젝트로 변수에 할당해서 넣어줘도 됩니다.
+  //const test = { value: 0 };
   const [state, dispatch] = useReducer(reducer, { value: 0 });
   console.log(state);
 

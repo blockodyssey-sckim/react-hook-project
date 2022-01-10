@@ -30,6 +30,7 @@ const Average = () => {
     setList(nextList);
     setNumber("");
     console.log(inputEl.current);
+    //Element Obj를 가져와서 포커스를 부여하는 부분
     inputEl.current.focus();
   }, [list, number]);
 

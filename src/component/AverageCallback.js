@@ -1,7 +1,5 @@
 import React, { useState, useMemo, useCallback } from "react";
 
-// 평균값을 구합니다.
-// 리스트를 가져와서 다 더한 다음 리스트의 배열 수 만큼 나누기
 const getAverage = (numbers) => {
   console.log("평균값 계산중..");
   if (numbers.length === 0) return 0;
@@ -29,13 +27,6 @@ const Average = () => {
     setList(nextList);
     setNumber("");
   }, [list, number]);
-  /*
-  const onInsert = () => {
-    const nextList = list.concat(parseInt(number));
-    setList(nextList);
-    setNumber("");
-  };
-  */
 
   const avg = useMemo(() => getAverage(list), [list]);
 
