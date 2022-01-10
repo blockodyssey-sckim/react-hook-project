@@ -1,70 +1,49 @@
-# Getting Started with Create React App
+# 2회 프론트엔드 포럼
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+React Hook 예제코드입니다.
 
-## Available Scripts
+## 프로젝트 실행
 
-In the project directory, you can run:
+```
+npm install
+npm start
+```
 
-### `npm start`
+## 프로젝트 설명
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Average.js
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+useMemo, useCallback, useRef가 사용되지 않은 최적화가 안된 파일입니다.
 
-### `npm test`
+### AverageMemo.js
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+useMemo Hook의 대한 예제코드가 있는 파일입니다.
 
-### `npm run build`
+### AverageCallback.js
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+useCallback Hook의 대한 예제코드가 있는 파일입니다.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### AverageRef.js
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+useRef의 대한 예제코드가 있는 파일입니다.
 
-### `npm run eject`
+## 위 세 가지 파일은 Average.js를 각 Hook을 사용하여 나눈 것으로 Average.js와 비교하며 봐주세요
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Counter.js
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+useState를 사용하여 만든 카운팅 코드입니다.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### CounterState.js
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+useReducer를 사용하여 만든 카운팅 코드입니다.
 
-## Learn More
+## Counter.js와 CounterState.js는 같은 동작이고 사용한 Hook만 다릅니다.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### info.js & useInput.js
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+CustomHook의 대한 예제코드가 있는 파일입니다.
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
